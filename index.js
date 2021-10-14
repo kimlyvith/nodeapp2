@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res){
-	res.send("Hello app2 - Test Slack Notification");
+	res.send("This is app2 - webhook by github notify to stack channel. ");
 });
 
 app.listen(8080,function(){
