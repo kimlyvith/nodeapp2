@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', function(req, res){
-	res.send("Hello app2 - testing slack notification 1");
+	res.send("Hello app2 - Test Slack Notification");
 });
 
 app.listen(8080,function(){
